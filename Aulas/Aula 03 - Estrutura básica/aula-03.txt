@@ -1,0 +1,32 @@
+Estrutura Base de um arquivo C++:
+
+Importação das bibliotecas: #include <>
+
+Namespace para evitar a repetição do código: using namespace std;
+
+A função principal do projeto que o seu parâmetro inicial espera o objeto retornado no fim da função:
+
+int main(){
+    //code
+    return 0;
+}
+
+No fim, teríamos:
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    return 0;
+
+}
+
+
+Alguns comandos da aula:
+
+system("pause"); -> Pausa o CMD até o clique de uma tela
+
+cout << "Hello, World"; -> imprime um valor na tela
+
+cout << "Hello, World!" << endl; -> Quebra de linha

@@ -1,0 +1,21 @@
+Exercício 01:
+
+E1 - Escreva 0 no espaço E8
+E2 - Pegue um cartão e escreva no espaço E6
+E3 - Se o valor de E6 for igual a -1, vá para E6
+E4 - Se o valor de E6 for maior ou igual a 60, adicone 1 ao valor de E8
+E5 - Volte para E2
+E6 - Imprima o valor de E8
+E7 - Pare
+
+
+Exercício 02:
+E1 - Escreva 0 no espaço E15
+E2 - Escreva 0 no espaço E16
+E3 - Se não houver cartões, vá para E7
+E4 - Pegue um cartão e some ao valor de E15
+E5 - Adicione 1 ao valor de E16
+E6 - Volte ao E3
+E7 - Pegue o valor de E15 e divida por E16 e escreva no E17
+E8 - Imprima o valor de E17
+E9 - Pare

@@ -1,0 +1,62 @@
+Variáveis: São espaços reservado na memória RAM pelo SO a pedido de um programa. Esse espaços podem ser manipulados ou apagados pelo 
+programa
+
+Como declarar variáveis:
+
+TIPO NOME;
+TIPO NOME{VALOR_INCIAL};
+TIPO NOME = VALOR;
+
+Tipos:
+
+int -> Números inteiros
+float -> Números reais
+double -> Números reias, porém, mais preciso que o float
+
+
+char -> Apenas um caractere entre apóstrafos
+char[n] -> N define o número de caracteres 
+string -> Texto longo entre aspas
+bool -> Aceita apenas "true" (1) ou "false" (0)
+
+void -> Nulo
+
+Também posso adicionar os prefixos:
+
+short e long: Curto e longo
+
+signed e unsigned: Inteiros e apenas positivos
+
+Comandos:
+
+cin >> -> Inserir teclas do teclado ou perguntar algo ao usuário
+// -> Pequenos comentários
+/* */ -> Comentários grandes
+
+
+Exemplo:
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    // Tipo e nome
+    // Tipo e nome = valor
+
+    /* */ // COmentário de várias linhas
+
+    int vendas{5000};
+    unsigned short int vidas{20}; // 10, 25, 100...
+    char letra =  'N'; // Uma letra e um apoóstrfo: 'b', 'Z', 'K'
+    char letras[20]; // Passa a ser um vetor com até 20 carácteres
+    double decimal = 2.499; // Valores reais. 2.5, 1.3333, 10.0. 2.499999999
+    float decimal2 = 2.499; // Igual ao double, mas com uma precisão menor. 2.5
+    bool vivo = true; // Apenas true ou false
+    string nome = "Ruan Davy\n"; //Recebe um texto . Entre Aspas
+    //void
+    /*cout << "Informe a quantidade de vidas: ";
+    cin >> vidas;*/
+
+    cout << nome << vendas;
+    return 0;
+}

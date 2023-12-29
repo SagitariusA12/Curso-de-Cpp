@@ -1,0 +1,34 @@
+Definir diversas vatiáveis do mesmo tipo:
+
+int vidas, tiros, life;
+
+Definir uma constantes:
+Deve ser feito fora do escopo local (no começo do código):
+
+Permutação com um valor:
+#define PI 3.1415
+
+Ou um comando:
+#define listar system("dir");
+
+
+
+Exemplo:
+#include <iostream>
+
+using namespace std;
+
+// Valor
+#define PI 3.1415
+
+//Comando
+#define listar system("dir")
+
+int main(){
+    int vidas, tiros, life;
+
+    cout << PI << endl;
+    listar;
+
+    return 0;
+}

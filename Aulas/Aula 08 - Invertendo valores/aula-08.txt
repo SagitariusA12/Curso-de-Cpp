@@ -1,0 +1,23 @@
+Invertendo valores de variáveis:
+
+int short num = 10;
+
+Forma normal:
+num  = num * (-1)
+
+Formal simplifada:
+num = -num
+
+Exemplo:
+#include <iostream>
+using namespace std;
+
+int main(){
+	short int number = 10;
+	
+	//number = number * (-1); Forma normal
+	number = -number;
+	
+	cout << number;
+	return 0;
+}
