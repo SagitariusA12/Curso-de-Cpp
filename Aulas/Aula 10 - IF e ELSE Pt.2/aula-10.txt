@@ -1,0 +1,49 @@
+Mais opções: Podemos ter inúmeros casos de decisões. Para evitar o uso do IF, usaremos o 
+"ELSE IF"
+
+Vejamos:
+
+if(<condição 1>){
+	// code
+}
+else if(<condição 2>){
+	// code
+}
+
+else if(<condição 3>){
+	// code
+}
+else{
+	// code
+}
+
+
+Comando "GOTO": Este comando tem o funcionamento parecido com uma estrutura de repetição como WHILE ou o FOR. 
+Indicamos uma LABEL no código que significa onde a execução do programa irá voltar e usamos o comando "GOTO" para 
+mostrar o LABEL ao COMPILADOR
+
+Exemplo:
+
+start: // LABEL é definido por um nome e dois pontos
+
+if(<condição 1>){
+	// code
+}
+else if(<condição 2>){
+	// code
+}
+
+else if(<condição 3>){
+	// code
+}
+else{
+	// code
+}
+
+goto start; // Sempre voltará ao LABEL Start
+
+
+Usar o "system("cls")": 
+#include <cstdlib>
+
+system("cls");

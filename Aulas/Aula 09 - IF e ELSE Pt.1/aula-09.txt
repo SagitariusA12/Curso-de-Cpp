@@ -1,0 +1,18 @@
+Bloco condicional IF e ELSE:É um bloco no código que permite o programa tomar um rumo diferente com base 
+em testes nas condições
+
+Estrutura:
+
+<teste> -> Apenas true ou false
+
+se(<teste>){
+    // Código
+}
+senão{
+    // Código
+}
+
+O bloco IF apenas será executado se a condição for "true/1".
+ELSE apenas será feito se o resultado for "false/0"
+
+Operadores --- >, <, >=, <=, ==, !=
